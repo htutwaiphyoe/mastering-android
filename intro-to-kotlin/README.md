@@ -93,3 +93,15 @@ conditional are expressions (if (x < 2>)) -> in replacement of ternary
 when for switch, no break, else for default
 
 loop -> while, for in
+
+## 6. Kotlin Variables & Types
+
+Int, Byte, Short, Long, Float, Double, String, Char, Boolean, Any
+
+var -> mutable -> js let
+val -> immutable -> js const
+const val -> constant -> attached to structure
+
+== structural, === referential
+
+string "", multi line """, support template expression as default $ or ${}
