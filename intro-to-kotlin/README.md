@@ -94,7 +94,7 @@ when for switch, no break, else for default
 
 loop -> while, for in
 
-## 6. Kotlin Variables & Types
+## 6. Variables & Types
 
 Int, Byte, Short, Long, Float, Double, String, Char, Boolean, Any
 
@@ -105,3 +105,38 @@ const val -> constant -> attached to structure
 == structural, === referential
 
 string "", multi line """, support template expression as default $ or ${}
+
+## 7. Collections
+
+3 families -> List (ordered, duplicates ok), Set (unique), Map (key -> value)
+
+each family -> read-only builder + mutable builder
+
+```kotlin
+List<Type> = listOf()
+MutableList<Type> = mutableListOf()
+
+Set<Type> = setOf()
+MutableSet<Type> = mutableSetOf()
+
+Map<K, V> = mapOf("a" to 1, "b" to 2)
+MutableMap<K, V> = mutableMapOf()
+
+emptyList(), buildList { add(1) }
+
+ArrayDeque -> double ended queue -> stack / queue
+
+hashSetOf(), hashMapOf() -> specific impl, no order guarantee
+linkedSetOf(), sortedSetOf()
+
+arrayOf() -> Array -> NOT a Collection -> fixed size, no add / remove, size + []
+intArrayOf(), IntArray(5) -> primitives, no boxing -> mostly for Java interop
+```
+
+setOf / mapOf preferred over hashSetOf / hashMapOf -> Kotlin picks impl (LinkedHash\* -> insertion order kept)
+
+`to` -> infix function -> builds Pair, not syntax
+
+read-only != immutable -> listOf() is a view, underlying object can still be mutable -> same trap as val
+
+no true immutable collections in stdlib
