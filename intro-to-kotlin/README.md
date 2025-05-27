@@ -140,3 +140,14 @@ setOf / mapOf preferred over hashSetOf / hashMapOf -> Kotlin picks impl (LinkedH
 read-only != immutable -> listOf() is a view, underlying object can still be mutable -> same trap as val
 
 no true immutable collections in stdlib
+
+## 8. Null Safety
+
+```kotlin
+var name: String -> required
+var optional: String? -> optional
+
+optional.length -> optional?.length -> optional!!.length -> ?: default value
+```
+
+## 8. Null Safety
