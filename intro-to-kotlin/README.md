@@ -150,4 +150,23 @@ var optional: String? -> optional
 optional.length -> optional?.length -> optional!!.length -> ?: default value
 ```
 
-## 8. Null Safety
+## 9. Functions & Lambada
+
+```kotlin
+
+fun name(arg: Type = default): ReturnType {
+  return value
+}
+
+name(value)
+name(arg=value) -> can switch order
+
+fun name(): ReturnType = value
+
+Type.isEvent() -> Value.isEvent()
+
+() -> Type, Unit = { name -> }
+
+one arg -> it
+
+```
