@@ -58,3 +58,19 @@ SDK -> JavaVM (Not JVM of Oracle) -> own engine (Dalvik ART)
 Java or Kotlin -> Java Byte Code -> Dalvik Executable -> Java VM -> NO native code (ndk is execeptional)
 
 Garbage collector
+
+## 4. Kotlin Overview
+
+By JetBrains -> Android Studio
+
+Open Source, Statically typed, Type Inference, Multiple Platform Language
+
+Interpreted Languages -> Source Code
+Intermediate Languages -> Bytecode (Kotlin)
+Complied Languages -> Machine Code (Kotlin)
+
+Android -> Intermediate Languages -> Bytecode (Kotlin)
+
+JVM 6, JVM 8, Android Java DEX, JavaScript, Native iOS, Android
+
+Kotlin Multi platform Mobile (KMM) for library
