@@ -74,3 +74,22 @@ Android -> Intermediate Languages -> Bytecode (Kotlin)
 JVM 6, JVM 8, Android Java DEX, JavaScript, Native iOS, Android
 
 Kotlin Multi platform Mobile (KMM) for library
+
+## 5. Kotlin Fundamentals
+
+.kt -> kotlin
+.kts -> kotlin scratch
+
+semicolon optional
+
+variable -> var
+
+print -> console buffer , println -> new line
+
+android does not support print, use println
+
+conditional are expressions (if (x < 2>)) -> in replacement of ternary
+
+when for switch, no break, else for default
+
+loop -> while, for in
