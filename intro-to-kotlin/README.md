@@ -34,3 +34,27 @@ Installation
 - Local
 
 ## 3. Android Version
+
+Version -> one major per year
+
+Code name deprecated from 10
+
+API (SDK version) -> essential -> integer
+
+Minimum SDK Version -> Installability -> Crash score
+
+Target SDK Version -> Behavior -> Test Env -> Future
+
+Compile SDK Version -> compiler version -> the newer the better
+
+minSdk <= targetSdk <= compileSdk
+
+the less sdk version, the few APIs
+
+Support Libraries -> Framework with Polyfill to support backward compatibility -> JetPack -> AndroidX packages
+
+SDK -> JavaVM (Not JVM of Oracle) -> own engine (Dalvik ART)
+
+Java or Kotlin -> Java Byte Code -> Dalvik Executable -> Java VM -> NO native code (ndk is execeptional)
+
+Garbage collector
