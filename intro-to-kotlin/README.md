@@ -195,4 +195,30 @@ constructor(): this(){} -> secondary constructor
 
 init {} -> initializer block
 
+does not have static member but only one companion object
+
+class N {
+  companion object {
+  }
+}
+
+property of companion object becomes static member in java
+
+```
+
+## 11. Others
+
+```kotlin
+
+interface Name {}
+
+object Name {
+  val name = value
+}
+
+sealed class -> class with companion object without instances -> for utils
+
+enum class -> enum
+
+data class -> class for holding data
 ```
