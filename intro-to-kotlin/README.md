@@ -222,3 +222,27 @@ enum class -> enum
 
 data class -> class for holding data
 ```
+
+## 12. Android Studio
+
+Activity -> a screen
+
+package name -> unique id for OS and Play Store
+
+AndroidManifest.xml -> metadata for OS
+
+Java/ -> source code
+
+test/ -> unit test
+
+androidTest/ -> ui test
+
+res/ -> resources
+
+gradle/ -> script build process
+
+Android view, app view
+
+MainActivity -> Entry Point
+
+Preview -> Emulator
