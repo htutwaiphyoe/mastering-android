@@ -246,3 +246,7 @@ Android view, app view
 MainActivity -> Entry Point
 
 Preview -> Emulator
+
+## 13. JetPack Compose
+
+Android Activity -> 
