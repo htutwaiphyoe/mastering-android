@@ -170,3 +170,29 @@ Type.isEvent() -> Value.isEvent()
 one arg -> it
 
 ```
+
+## 10. Classes
+
+```kotlin
+class Name {
+  public var name = vLUE
+
+}
+
+Name() -> no new keyword
+
+cannot extend as default -> use open and override
+
+class A: B() {
+ override fun A(){}
+}
+
+class N(val n: Type) -> primary constructor
+
+var or val -> create property -> N.n
+
+constructor(): this(){} -> secondary constructor
+
+init {} -> initializer block
+
+```
