@@ -322,3 +322,18 @@ var state = remember { mutableStateOf(value) } -> same as useState
 remember -> like memo to save old data
 
 state.value -> to get value
+
+## 16. Project
+
+import android -> sdk
+import andoridx -> jetpack
+
+use Kotlin Class/File template for new file
+
+comp, prev -> shortcut
+
+font -> args of text
+
+fontSize -> use sp, fontStyle
+
+style -> TextStyle -> defined in the theme -> can create design system
