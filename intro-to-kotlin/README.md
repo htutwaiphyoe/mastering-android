@@ -349,3 +349,17 @@ color -> 0xFF43281C -> 0x long integer + ARGB
 Theme -> dark and light
 
 Build -> Clean project if necessary
+
+assets -> res -> drawable
+
+svg -> vector asset -> svg to xml
+
+svg with text cannot imported
+
+Image(painter = painterResource(R.drawable.file_name), contentDescription = "alt text")
+
+reference in R object
+
+fillMaxWidth -> image size
+
+contentScale -> Fill, Crop
