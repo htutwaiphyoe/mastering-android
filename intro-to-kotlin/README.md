@@ -280,3 +280,15 @@ dp -> density-independent pixel pixel
 sp -> scalable pixel -> font size
 
 graphical assets -> png, svg -> svg is not supported by default -> change to Android vector format (xml based)
+
+## 14. JetPack Compose
+
+Composable -> UI component
+
+function with @Composable -> TitleName -> emit other composables
+
+@Preview -> for preview -> no bg by default
+
+@Preview(showBackground = true) -> with bg
+
+can have more than one preview
