@@ -367,3 +367,7 @@ contentScale -> Fill, Crop
 Column is not scrollable
 
 Box -> div
+
+Scaffold -> app layout -> AppTopBar
+
+use AppNameTheme() for own theme
