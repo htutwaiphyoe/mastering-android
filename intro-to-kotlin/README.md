@@ -363,3 +363,7 @@ reference in R object
 fillMaxWidth -> image size
 
 contentScale -> Fill, Crop
+
+Column is not scrollable
+
+Box -> div
