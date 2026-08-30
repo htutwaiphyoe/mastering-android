@@ -249,4 +249,34 @@ Preview -> Emulator
 
 ## 13. JetPack Compose
 
-Android Activity -> 
+Android Xml is painful
+
+Android Activity -> UI of OS
+
+xml -> one activity per one screen
+
+jetpack -> one activity with different views
+
+theme -> design system -> ui.theme/
+
+Composable -> UI component
+
+Modifier -> function returns Composable -> use for Layout
+
+Composition -> tree structure of Composable
+
+Mutable State & Remember -> readonly by default
+
+Composition local
+
+Side effects -> Network calls
+
+Dimension Unit -> px, dp, sp
+
+px -> pixel
+
+dp -> density-independent pixel pixel
+
+sp -> scalable pixel -> font size
+
+graphical assets -> png, svg -> svg is not supported by default -> change to Android vector format (xml based)
