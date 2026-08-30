@@ -337,3 +337,15 @@ font -> args of text
 fontSize -> use sp, fontStyle
 
 style -> TextStyle -> defined in the theme -> can create design system
+
+MaterialTheme.typography.h6
+
+horizontalAlignment -> column
+
+Spacer composable -> gap
+
+color -> 0xFF43281C -> 0x long integer + ARGB
+
+Theme -> dark and light
+
+Build -> Clean project if necessary
