@@ -292,3 +292,21 @@ function with @Composable -> TitleName -> emit other composables
 @Preview(showBackground = true) -> with bg
 
 can have more than one preview
+
+## 14. JetPack Modifiers
+
+modifier -> padding, margin for composable -> chain of functions -> Modifier.padding(16.dp) -> import dp
+
+order of modifier is important, can add multiple values, not like css
+
+no margin -> use padding before bg
+
+emit multiple composable -> stack on top of each other -> use container -> Column composable
+
+Row composable -> row
+Column composable -> column
+Text composable -> text
+
+Column -> lambda
+
+can create custom modifier
