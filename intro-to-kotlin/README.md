@@ -310,3 +310,15 @@ Text composable -> text
 Column -> lambda
 
 can create custom modifier
+
+## 15. TextField & Input Value
+
+readonly by default
+
+TextField(value, onValueChange)
+
+var state = remember { mutableStateOf(value) } -> same as useState
+
+remember -> like memo to save old data
+
+state.value -> to get value
