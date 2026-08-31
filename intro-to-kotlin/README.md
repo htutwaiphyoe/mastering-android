@@ -397,3 +397,11 @@ Scroll -> LazyColumn
     }
   }
 ```
+
+Android does not have native http calls
+
+External dependency -> build.gradle -> Project level and Module level (App)
+
+Module level -> dependencies -> like package.json
+
+put in dependencies list -> implementation 'library' -> sync
