@@ -371,3 +371,13 @@ Box -> div
 Scaffold -> app layout -> AppTopBar
 
 use AppNameTheme() for own theme
+
+icon -> ImageVector -> Icons.Filled.Icon
+
+click event -> use Modifier.clickable
+
+horizontalArrangement = Arrangement.SpaceBetween
+
+JetPack does not support navigation -> use JetPack Compose Navigation
+
+new folder -> Packages
