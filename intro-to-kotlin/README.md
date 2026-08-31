@@ -381,3 +381,19 @@ horizontalArrangement = Arrangement.SpaceBetween
 JetPack does not support navigation -> use JetPack Compose Navigation
 
 new folder -> Packages
+
+data model -> MVC, MVVM
+
+get() -> getter
+
+android supports snake case only for resources
+
+Scroll -> LazyColumn
+
+```kotlin
+  LazyColumn {
+    items(5) {
+    
+    }
+  }
+```
