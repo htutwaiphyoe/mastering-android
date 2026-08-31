@@ -409,3 +409,25 @@ put in dependencies list -> implementation 'library' -> sync
 List by mutableStateOf(listOf()) -> create new reference (NOT the same list) like React state change of object or array -> listOf(*list.toTypedArray(), newItem)
 
 to remove -> change to mutable -> remove -> copy again
+
+api call -> retrofit library
+
+suspend -> coroutine
+
+[coroutines](https://kotlinlang.org/docs/coroutines-overview.html)
+
+AndroidViewModel -> Framework from JetPack
+
+```kotlin
+viewModelScope.launch{
+  coroutine code
+}
+
+ViewModelProvider(this).get(Class::class.java)
+```
+
+Android won't let network call in main thread
+
+Android app are default by offline -> need permission -> use manifest file
+
+AsyncImage -> image from server
