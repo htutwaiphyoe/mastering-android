@@ -405,3 +405,7 @@ External dependency -> build.gradle -> Project level and Module level (App)
 Module level -> dependencies -> like package.json
 
 put in dependencies list -> implementation 'library' -> sync
+
+List by mutableStateOf(listOf()) -> create new reference (NOT the same list) like React state change of object or array -> listOf(*list.toTypedArray(), newItem)
+
+to remove -> change to mutable -> remove -> copy again
