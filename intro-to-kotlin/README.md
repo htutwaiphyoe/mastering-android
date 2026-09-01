@@ -431,3 +431,17 @@ Android won't let network call in main thread
 Android app are default by offline -> need permission -> use manifest file
 
 AsyncImage -> image from server
+
+Web View -> Web app in android -> use Android Class View in JetPack (not support by JetPack)
+
+AndroidView() -> compose for class android view
+
+mipmap/ for app icon -> different resolutions of png or webp
+
+new image asset -> 512x512
+
+Build -> Build bundles/ APKs -> Debug api
+
+Build -> Generate Signed bundles/ APKs -> release api
+
+AAB -> create compatible apk for each phone
